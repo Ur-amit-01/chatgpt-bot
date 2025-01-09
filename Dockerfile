@@ -1,5 +1,5 @@
-# Use the official Python 3.12 slim image as the base image
-FROM python:3.12-slim-buster
+# Use the latest Python 3.12 slim image
+FROM python:3.12-slim
 
 # Set the working directory in the container
 WORKDIR /app
